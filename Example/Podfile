@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarsAVKit_Example' do
+  pod 'MarsAVKit', :path => '../'
+
+  target 'MarsAVKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
