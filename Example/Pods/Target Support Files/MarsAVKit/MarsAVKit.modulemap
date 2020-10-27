@@ -1,0 +1,6 @@
+framework module MarsAVKit {
+  umbrella header "MarsAVKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

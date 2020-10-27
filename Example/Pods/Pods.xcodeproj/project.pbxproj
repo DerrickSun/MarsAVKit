@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2359FDB6CD0F39C71426B783FC15D25C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		29EAAFF22D36193BD88DB16DB6364542 /* Pods-MarsAVKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 709EECC314EDC356459B8C7996523149 /* Pods-MarsAVKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB1B3859152647209BED8978C70CEA4 /* MarsAVKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2299FCBAA413C4FB6B4966E3FA6F95D3 /* MarsAVKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63A720E1EFAA4E46B96296DC8906BF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6879AAFD3E02829B3F1F7A2D5C71D1A6 /* Pods-MarsAVKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7537AAEBD3F8A1705F01A2573C73754 /* Pods-MarsAVKit_Example-dummy.m */; };
+		A3EFBAADABBF32F1DBD6A72C6D0B1D28 /* MarsAVKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F61D23BD2574CFC36B8F5929912DE5D /* MarsAVKit-dummy.m */; };
+		B2E2415B247F7DFC433C85C706A3B3E1 /* Pods-MarsAVKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D4F074F78E44CBDF7AB51D51557653 /* Pods-MarsAVKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C0E92AE49D3D40868BE603F065F06F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C255E9FB88C50BC01B2532D831566 /* ReplaceMe.swift */; };
+		CB361053B0201A6F819514FA3011A9E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D8825E5F5526C4F63FC97FAA8BB48256 /* Pods-MarsAVKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 826AC5F03A306467A68D46884871AF8C /* Pods-MarsAVKit_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8C5AE5A4A184C24AD2E1B6285D64F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27389CDDE02D712CED8119341717CA9;
+			remoteInfo = "Pods-MarsAVKit_Example";
+		};
+		DF8F917B5A455B084DB989C1E766FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D9B8147725B9FA6E42F88DEBA8B7F5;
+			remoteInfo = MarsAVKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F61D23BD2574CFC36B8F5929912DE5D /* MarsAVKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarsAVKit-dummy.m"; sourceTree = "<group>"; };
+		2299FCBAA413C4FB6B4966E3FA6F95D3 /* MarsAVKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarsAVKit-umbrella.h"; sourceTree = "<group>"; };
+		26B3087C01C43B5090660175EF217FC2 /* Pods-MarsAVKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAVKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		30CC0D6F18C88C488EDEF2BB7B634DE3 /* Pods-MarsAVKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAVKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37B427C3D8631B3C042C6FC897E15D4C /* Pods-MarsAVKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAVKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		389A59AB3B234607493579F41926DB5D /* Pods-MarsAVKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAVKit_Example-Info.plist"; sourceTree = "<group>"; };
+		3A1FC04B9BC544717AE699AF469D9613 /* MarsAVKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarsAVKit.debug.xcconfig; sourceTree = "<group>"; };
+		3D8D52BF6DC612C3C3F9F21A4B14F754 /* Pods-MarsAVKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAVKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44B0FC2A9561B8C2857CAE20648B8AB6 /* MarsAVKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MarsAVKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4EDF02C7BB4AEE12D8910A0ABBF648C8 /* MarsAVKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarsAVKit-Info.plist"; sourceTree = "<group>"; };
+		68FE943F1499F9711B52ADD718652476 /* MarsAVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarsAVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709EECC314EDC356459B8C7996523149 /* Pods-MarsAVKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsAVKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		74F2D9C4DD3C12BAF31914EB36CE7D1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		817A21E71D5142161D3300C241A7A699 /* MarsAVKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarsAVKit.modulemap; sourceTree = "<group>"; };
+		826AC5F03A306467A68D46884871AF8C /* Pods-MarsAVKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsAVKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8F8EE520B62E1D3D332F62772D28DA1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93ADDE2EC328074A500968920332C22C /* Pods-MarsAVKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAVKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A30451CDA685F988C905DE17C9AB0AE3 /* Pods-MarsAVKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsAVKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAC33E16B500CD93EFEEFFF5ACD219FA /* Pods_MarsAVKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsAVKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEE406E2F12F14D6B6C5B60DE6074EA /* Pods-MarsAVKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsAVKit_Tests.modulemap"; sourceTree = "<group>"; };
+		C3130DB98BE633105AD7D19E77B00AD8 /* MarsAVKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarsAVKit.release.xcconfig; sourceTree = "<group>"; };
+		C7D4F074F78E44CBDF7AB51D51557653 /* Pods-MarsAVKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsAVKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D27F9C959AE53D2A0DC5DFCF74E03044 /* Pods-MarsAVKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarsAVKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D2F5B83BA664F28C35DA1DAC1F2248B1 /* Pods-MarsAVKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsAVKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF494BA68F21A12B68040B5066A9A97F /* Pods_MarsAVKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsAVKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7537AAEBD3F8A1705F01A2573C73754 /* Pods-MarsAVKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsAVKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F90C255E9FB88C50BC01B2532D831566 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MarsAVKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F92E92769915F119DBA30F03B70F8777 /* Pods-MarsAVKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAVKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD51A67767DAC05F60774807201E6795 /* Pods-MarsAVKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsAVKit_Example.modulemap"; sourceTree = "<group>"; };
+		FEC924076E95F11850A6EF5D2EF20B1B /* MarsAVKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarsAVKit-prefix.pch"; sourceTree = "<group>"; };
+		FFC83BA5AE05E86EE6924937E6FBB5A6 /* Pods-MarsAVKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAVKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8FC324C06DCC1897B1B29333E88CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB361053B0201A6F819514FA3011A9E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9275B6840C5753F9DDCDA7531237C78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2359FDB6CD0F39C71426B783FC15D25C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25CF3103DBB5F688BABD36FC97E8001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A720E1EFAA4E46B96296DC8906BF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161C7CF4C5D4A7E7B7DD7B5AEBBBE0B2 /* Pods-MarsAVKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEE406E2F12F14D6B6C5B60DE6074EA /* Pods-MarsAVKit_Tests.modulemap */,
+				D2F5B83BA664F28C35DA1DAC1F2248B1 /* Pods-MarsAVKit_Tests-acknowledgements.markdown */,
+				3D8D52BF6DC612C3C3F9F21A4B14F754 /* Pods-MarsAVKit_Tests-acknowledgements.plist */,
+				826AC5F03A306467A68D46884871AF8C /* Pods-MarsAVKit_Tests-dummy.m */,
+				26B3087C01C43B5090660175EF217FC2 /* Pods-MarsAVKit_Tests-Info.plist */,
+				C7D4F074F78E44CBDF7AB51D51557653 /* Pods-MarsAVKit_Tests-umbrella.h */,
+				37B427C3D8631B3C042C6FC897E15D4C /* Pods-MarsAVKit_Tests.debug.xcconfig */,
+				93ADDE2EC328074A500968920332C22C /* Pods-MarsAVKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-MarsAVKit_Tests";
+			path = "Target Support Files/Pods-MarsAVKit_Tests";
+			sourceTree = "<group>";
+		};
+		21C474402EC3A7CE9AA6350ADA8AF694 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8BE0AF3E1A2E032966DA379C35298 /* MarsAVKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		556EB7686E5BC640A2820F78566F8237 /* Pods-MarsAVKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD51A67767DAC05F60774807201E6795 /* Pods-MarsAVKit_Example.modulemap */,
+				A30451CDA685F988C905DE17C9AB0AE3 /* Pods-MarsAVKit_Example-acknowledgements.markdown */,
+				F92E92769915F119DBA30F03B70F8777 /* Pods-MarsAVKit_Example-acknowledgements.plist */,
+				F7537AAEBD3F8A1705F01A2573C73754 /* Pods-MarsAVKit_Example-dummy.m */,
+				D27F9C959AE53D2A0DC5DFCF74E03044 /* Pods-MarsAVKit_Example-frameworks.sh */,
+				389A59AB3B234607493579F41926DB5D /* Pods-MarsAVKit_Example-Info.plist */,
+				709EECC314EDC356459B8C7996523149 /* Pods-MarsAVKit_Example-umbrella.h */,
+				FFC83BA5AE05E86EE6924937E6FBB5A6 /* Pods-MarsAVKit_Example.debug.xcconfig */,
+				30CC0D6F18C88C488EDEF2BB7B634DE3 /* Pods-MarsAVKit_Example.release.xcconfig */,
+			);
+			name = "Pods-MarsAVKit_Example";
+			path = "Target Support Files/Pods-MarsAVKit_Example";
+			sourceTree = "<group>";
+		};
+		8830455F84FA2E505185C32A8586BE7B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				556EB7686E5BC640A2820F78566F8237 /* Pods-MarsAVKit_Example */,
+				161C7CF4C5D4A7E7B7DD7B5AEBBBE0B2 /* Pods-MarsAVKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B5A0855F12D0F857E99F1DB102102DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74F2D9C4DD3C12BAF31914EB36CE7D1A /* LICENSE */,
+				44B0FC2A9561B8C2857CAE20648B8AB6 /* MarsAVKit.podspec */,
+				8F8EE520B62E1D3D332F62772D28DA1F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				21C474402EC3A7CE9AA6350ADA8AF694 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E5DA5A244E36BCEEB3518161A5351628 /* Products */,
+				8830455F84FA2E505185C32A8586BE7B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5DA5A244E36BCEEB3518161A5351628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FE943F1499F9711B52ADD718652476 /* MarsAVKit.framework */,
+				EF494BA68F21A12B68040B5066A9A97F /* Pods_MarsAVKit_Example.framework */,
+				AAC33E16B500CD93EFEEFFF5ACD219FA /* Pods_MarsAVKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD8BE0AF3E1A2E032966DA379C35298 /* MarsAVKit */ = {
+			isa = PBXGroup;
+			children = (
+				F90C255E9FB88C50BC01B2532D831566 /* ReplaceMe.swift */,
+				9B5A0855F12D0F857E99F1DB102102DF /* Pod */,
+				F59392E3043624740DA1DC28779C6C12 /* Support Files */,
+			);
+			name = MarsAVKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F59392E3043624740DA1DC28779C6C12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				817A21E71D5142161D3300C241A7A699 /* MarsAVKit.modulemap */,
+				0F61D23BD2574CFC36B8F5929912DE5D /* MarsAVKit-dummy.m */,
+				4EDF02C7BB4AEE12D8910A0ABBF648C8 /* MarsAVKit-Info.plist */,
+				FEC924076E95F11850A6EF5D2EF20B1B /* MarsAVKit-prefix.pch */,
+				2299FCBAA413C4FB6B4966E3FA6F95D3 /* MarsAVKit-umbrella.h */,
+				3A1FC04B9BC544717AE699AF469D9613 /* MarsAVKit.debug.xcconfig */,
+				C3130DB98BE633105AD7D19E77B00AD8 /* MarsAVKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarsAVKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59687B4133987100C9CD99714C36DC67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB1B3859152647209BED8978C70CEA4 /* MarsAVKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60807180AA7D9B7A84696449A3932A46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EAAFF22D36193BD88DB16DB6364542 /* Pods-MarsAVKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513A8CD4F16CAC2449AA028EFF0CEDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2415B247F7DFC433C85C706A3B3E1 /* Pods-MarsAVKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28CBDF7DB29C5EA5ED444135EEBB8712 /* Pods-MarsAVKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C287FBCFC061B712B34F94F791AC238 /* Build configuration list for PBXNativeTarget "Pods-MarsAVKit_Tests" */;
+			buildPhases = (
+				C513A8CD4F16CAC2449AA028EFF0CEDB /* Headers */,
+				018B0D36A88D90C694D0F4F852410C05 /* Sources */,
+				B25CF3103DBB5F688BABD36FC97E8001 /* Frameworks */,
+				9836C3162BD8BEB6F3FD18437210F22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822A9523DCF7F17B2D8E49897826817F /* PBXTargetDependency */,
+			);
+			name = "Pods-MarsAVKit_Tests";
+			productName = "Pods-MarsAVKit_Tests";
+			productReference = AAC33E16B500CD93EFEEFFF5ACD219FA /* Pods_MarsAVKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A27389CDDE02D712CED8119341717CA9 /* Pods-MarsAVKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A61C28ED19ECC4D45A44DA220CD53C /* Build configuration list for PBXNativeTarget "Pods-MarsAVKit_Example" */;
+			buildPhases = (
+				60807180AA7D9B7A84696449A3932A46 /* Headers */,
+				D7879E1659177D87251D13C6B120858B /* Sources */,
+				3C8FC324C06DCC1897B1B29333E88CB7 /* Frameworks */,
+				E4FE81E03AFE6853C5B0FB08752EFE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DC173CE29389A7BD08F56D012A379B /* PBXTargetDependency */,
+			);
+			name = "Pods-MarsAVKit_Example";
+			productName = "Pods-MarsAVKit_Example";
+			productReference = EF494BA68F21A12B68040B5066A9A97F /* Pods_MarsAVKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2D9B8147725B9FA6E42F88DEBA8B7F5 /* MarsAVKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B19D387A74AFE7479FC154A364EBA1 /* Build configuration list for PBXNativeTarget "MarsAVKit" */;
+			buildPhases = (
+				59687B4133987100C9CD99714C36DC67 /* Headers */,
+				879BC18197C9D9F439E8553C93D23A22 /* Sources */,
+				9275B6840C5753F9DDCDA7531237C78A /* Frameworks */,
+				8DBFCFD68157BA99BDF67A33E1E2521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsAVKit;
+			productName = MarsAVKit;
+			productReference = 68FE943F1499F9711B52ADD718652476 /* MarsAVKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					A2D9B8147725B9FA6E42F88DEBA8B7F5 = {
+						LastSwiftMigration = 1210;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E5DA5A244E36BCEEB3518161A5351628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D9B8147725B9FA6E42F88DEBA8B7F5 /* MarsAVKit */,
+				A27389CDDE02D712CED8119341717CA9 /* Pods-MarsAVKit_Example */,
+				28CBDF7DB29C5EA5ED444135EEBB8712 /* Pods-MarsAVKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBFCFD68157BA99BDF67A33E1E2521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9836C3162BD8BEB6F3FD18437210F22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FE81E03AFE6853C5B0FB08752EFE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018B0D36A88D90C694D0F4F852410C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8825E5F5526C4F63FC97FAA8BB48256 /* Pods-MarsAVKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879BC18197C9D9F439E8553C93D23A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFBAADABBF32F1DBD6A72C6D0B1D28 /* MarsAVKit-dummy.m in Sources */,
+				C0C0E92AE49D3D40868BE603F065F06F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7879E1659177D87251D13C6B120858B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6879AAFD3E02829B3F1F7A2D5C71D1A6 /* Pods-MarsAVKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DC173CE29389A7BD08F56D012A379B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarsAVKit;
+			target = A2D9B8147725B9FA6E42F88DEBA8B7F5 /* MarsAVKit */;
+			targetProxy = DF8F917B5A455B084DB989C1E766FCA9 /* PBXContainerItemProxy */;
+		};
+		822A9523DCF7F17B2D8E49897826817F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarsAVKit_Example";
+			target = A27389CDDE02D712CED8119341717CA9 /* Pods-MarsAVKit_Example */;
+			targetProxy = AE8C5AE5A4A184C24AD2E1B6285D64F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CF7850701A28A5323AFBA8BB5B2D1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3130DB98BE633105AD7D19E77B00AD8 /* MarsAVKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarsAVKit/MarsAVKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarsAVKit/MarsAVKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarsAVKit/MarsAVKit.modulemap";
+				PRODUCT_MODULE_NAME = MarsAVKit;
+				PRODUCT_NAME = MarsAVKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C72AE97C23D47C7AFA045E2007190C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93ADDE2EC328074A500968920332C22C /* Pods-MarsAVKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsAVKit_Tests/Pods-MarsAVKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsAVKit_Tests/Pods-MarsAVKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B9320B7E4A826EF0BEE813F21C3DBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CC0D6F18C88C488EDEF2BB7B634DE3 /* Pods-MarsAVKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsAVKit_Example/Pods-MarsAVKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsAVKit_Example/Pods-MarsAVKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D73879F6A3E0B97D73F9E2E029EC34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1FC04B9BC544717AE699AF469D9613 /* MarsAVKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarsAVKit/MarsAVKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarsAVKit/MarsAVKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarsAVKit/MarsAVKit.modulemap";
+				PRODUCT_MODULE_NAME = MarsAVKit;
+				PRODUCT_NAME = MarsAVKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94599F584F697F7F7DD3DCDAD1245A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC83BA5AE05E86EE6924937E6FBB5A6 /* Pods-MarsAVKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsAVKit_Example/Pods-MarsAVKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsAVKit_Example/Pods-MarsAVKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DAA94704BA4858C0108D06D4F24CA16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B427C3D8631B3C042C6FC897E15D4C /* Pods-MarsAVKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsAVKit_Tests/Pods-MarsAVKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsAVKit_Tests/Pods-MarsAVKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B19D387A74AFE7479FC154A364EBA1 /* Build configuration list for PBXNativeTarget "MarsAVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D73879F6A3E0B97D73F9E2E029EC34C /* Debug */,
+				3CF7850701A28A5323AFBA8BB5B2D1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C287FBCFC061B712B34F94F791AC238 /* Build configuration list for PBXNativeTarget "Pods-MarsAVKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA94704BA4858C0108D06D4F24CA16B /* Debug */,
+				4C72AE97C23D47C7AFA045E2007190C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A61C28ED19ECC4D45A44DA220CD53C /* Build configuration list for PBXNativeTarget "Pods-MarsAVKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94599F584F697F7F7DD3DCDAD1245A1A /* Debug */,
+				6B9320B7E4A826EF0BEE813F21C3DBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

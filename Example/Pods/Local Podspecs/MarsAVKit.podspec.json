@@ -1,0 +1,22 @@
+{
+  "name": "MarsAVKit",
+  "version": "0.1.0",
+  "summary": "A short description of MarsAVKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunxin/MarsAVKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunxin": "gzsunxin@rd.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/sunxin/MarsAVKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MarsAVKit/Classes/**/*"
+}

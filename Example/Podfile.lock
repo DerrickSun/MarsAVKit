@@ -1,0 +1,16 @@
+PODS:
+  - MarsAVKit (0.1.0)
+
+DEPENDENCIES:
+  - MarsAVKit (from `../`)
+
+EXTERNAL SOURCES:
+  MarsAVKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarsAVKit: 3bb0ad29cbcaccc527f2c87abba152a43f987772
+
+PODFILE CHECKSUM: 6591a332b906d902686930acdd09806caf2026be
+
+COCOAPODS: 1.9.3
